@@ -11,6 +11,7 @@ app.include_router(report.router)
 origins = [
   "http://localhost",
   "http://localhost:3000",
+  "https://lostandfound-syafiq.herokuapp.com"
 ]
 
 app.add_middleware(
